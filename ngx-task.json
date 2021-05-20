@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ngx1",
+    "image": "159415703522.dkr.ecr.us-east-1.amazonaws.com/nginx1010:5121d79ed7670c8998402207b122217107b42c1d",
+    "cpu": 10,
+    "memory": 512,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 80,
+        "hostPort": 80
+      }
+    ]
+  }
